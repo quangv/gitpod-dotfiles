@@ -1,0 +1,24 @@
+[user]
+  name = Quang Van
+  email = quang@absentsoft.com
+
+[push]
+  default = simple
+
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  rb = rebase
+
+  df = diff
+  dff = diff
+
+  diffc = diff --cached
+  dfc = diff --cached
+  dffc = diff --cached
+
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[credential]
+  helper = /usr/bin/gp credential-helper
